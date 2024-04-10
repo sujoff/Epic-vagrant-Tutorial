@@ -28,6 +28,8 @@ Now you can ssh to your vm using `vagrant ssh {name of your vm})` like below. I'
 
 Done. Now you've successfully ssh'ed to your newly created Ubuntu virtual machine.
 
+PS : learn to configure further changes as per your requirement by editing Vagrantfile. You can pre-install packages, open ports, create users/group and many more. Start learning them, you'll be Vagrant pro in no time.
+
 
 
 
