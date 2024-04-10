@@ -1,15 +1,16 @@
 Here,\
-I'll document my a basic process of spinning up three Ubuntu vm in your machine.
+I'll document my a simple process of spinning up three Ubuntu vm in your machine using Vagrant.\
+Vagrant is quite popular tool developed by Hashicorp. It's quite useful of quickly creating virtual machine and test them. You can easily delete them with `vagrant destroy`
 
-Step 1: Installed Vagrant (use official documentation, chatgpt/gemini if you have no idea)
+Step 1: Install Vagrant (https://developer.hashicorp.com/vagrant/install) (use official documentation, chatgpt/gemini if you have no idea)
 
-step 2: Installed Oracle VM virtualbox
+step 2: Install Oracle VM virtualbox (https://www.virtualbox.org/wiki/Downloads)
 
 step 3: Install git bash (I prefer it for some reason. You can use powershell/terminal as well), run `mkdir ubuntu`, `cd ubuntu` and type `vagrant init` and enter
 
 step 4: I'm goint to spin up three vm named `first`, `second` and `third`
 
-vagrant uses boxes (think of them as base os image) to up the VM. you can find your favourite boxes at (https://app.vagrantup.com/)
+vagrant uses boxes (think of them as pre-packaged virtual machine) to spin up your VM. you can find your favourite boxes at (https://app.vagrantup.com/)
 
 
 Being a Gen-z engineer, I generated a vagrantfile with above description using Google Gemini and edited it to Vagrantfile ( yes it don't have any extension).
