@@ -15,7 +15,7 @@ step 4: I'm goint to spin up three vm named `first`, `second` and `third`
 vagrant uses boxes (think of them as pre-packaged virtual machine) to spin up your VM. you can find your favourite boxes at (https://app.vagrantup.com/)
 
 
-Being a Gen-z engineer, I generated a vagrantfile with above description using Google Gemini and edited it to Vagrantfile ( yes it don't have any extension).
+Being a Gen-z engineer, I generated a vagrantfile with above description using Google Gemini and edited it to Vagrantfile ( yes it don't have any extension). OR use Vagrantfile that I've provided above.
 
 Step 4: Now run `vagrant up`
 
