@@ -2,7 +2,7 @@ Here,\
 I'll document my a simple process of spinning up three Ubuntu vm in your machine using Vagrant.
 
 
-Vagrant is quite popular tool developed by Hashicorp. It's quite useful of quickly creating virtual machine and test them. You can easily delete them with `vagrant destroy`
+Vagrant is quite popular tool developed by Hashicorp. It's quite useful for quickly creating virtual machine and test them. You can easily delete them with `vagrant destroy`
 
 Step 1: Install Vagrant (https://developer.hashicorp.com/vagrant/install) (use official documentation, chatgpt/gemini if you have no idea)
 
